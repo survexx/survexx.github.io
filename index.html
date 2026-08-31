@@ -1,17 +1,783 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Suraj Singh Tomar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Suraj Tomar | Full Stack Developer</title>
+
+    <meta name="description"
+          content="Portfolio of Suraj Tomar — B.Tech CSE student, Full Stack Developer and Software Engineer.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
 </head>
+
 <body>
 
-    <h1>Hi, I'm Suraj Singh Tomar 👋</h1>
+<!-- ================= NAVBAR ================= -->
 
-    <h2>Computer Science Student</h2>
+<header class="navbar">
+    <div class="container nav-container">
 
-    <p>
-        Welcome to my personal website.
-    </p>
+        <a href="#home" class="logo">
+            <span>&lt;</span>Suraj<span>/&gt;</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-button">
+            Let's Talk
+        </a>
+
+    </div>
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <p class="hero-intro">
+                Hi, I'm
+            </p>
+
+            <h1>
+                Suraj <span>Tomar.</span>
+            </h1>
+
+            <h2>
+                Full Stack Developer &amp; Software Engineer
+            </h2>
+
+            <p class="hero-description">
+                I build scalable web applications, backend systems and
+                meaningful digital products. Currently pursuing B.Tech
+                in Computer Science &amp; Engineering and preparing for
+                the next challenge in software engineering.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    View My Work
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+            </div>
+
+            <div class="hero-socials">
+
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+                <a href="mailto:your.email@example.com">
+                    Email
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="code-window">
+
+                <div class="window-header">
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <p>developer.java</p>
+                </div>
+
+                <div class="code-content">
+
+<pre><code><span class="keyword">public class</span> <span class="class-name">Developer</span> {
+
+    <span class="keyword">String</span> name = <span class="string">"Suraj Tomar"</span>;
+
+    <span class="keyword">String</span>[] skills = {
+        <span class="string">"Java"</span>,
+        <span class="string">"Spring Boot"</span>,
+        <span class="string">"React"</span>,
+        <span class="string">"Django"</span>,
+        <span class="string">"DSA"</span>
+    };
+
+    <span class="keyword">boolean</span> learning = <span class="boolean">true</span>;
+    <span class="keyword">boolean</span> building = <span class="boolean">true</span>;
+
+}</code></pre>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats-section">
+    <div class="container stats-grid">
+
+        <div class="stat">
+            <h3>8.41</h3>
+            <p>CGPA</p>
+        </div>
+
+        <div class="stat">
+            <h3>2027</h3>
+            <p>Graduation</p>
+        </div>
+
+        <div class="stat">
+            <h3>3+</h3>
+            <p>Internship / Work Experience</p>
+        </div>
+
+        <div class="stat">
+            <h3>5+</h3>
+            <p>Major Projects</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="section-label">ABOUT ME</p>
+            <h2>Turning ideas into <span>working software.</span></h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text">
+
+                <p>
+                    I'm a Computer Science Engineering student who enjoys
+                    building things—from backend APIs and databases to
+                    full-stack web applications.
+                </p>
+
+                <p>
+                    My strongest foundation is in Java, backend development,
+                    databases and Data Structures &amp; Algorithms. I've also
+                    worked with React, Django, JavaScript and modern web
+                    development technologies.
+                </p>
+
+                <p>
+                    I believe the best way to learn technology is to build
+                    real products with it. That's why most of my learning
+                    revolves around projects, internships, hackathons and
+                    solving challenging problems.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    Let's build something → 
+                </a>
+
+            </div>
+
+
+            <div class="about-highlights">
+
+                <div class="highlight-card">
+                    <span class="highlight-icon">01</span>
+                    <h3>Backend Development</h3>
+                    <p>
+                        APIs, databases, authentication, RBAC and
+                        server-side applications.
+                    </p>
+                </div>
+
+                <div class="highlight-card">
+                    <span class="highlight-icon">02</span>
+                    <h3>Full Stack Development</h3>
+                    <p>
+                        Building complete applications using modern
+                        frontend and backend technologies.
+                    </p>
+                </div>
+
+                <div class="highlight-card">
+                    <span class="highlight-icon">03</span>
+                    <h3>Problem Solving</h3>
+                    <p>
+                        Data Structures, Algorithms and competitive
+                        programming challenges.
+                    </p>
+                </div>
+
+                <div class="highlight-card">
+                    <span class="highlight-icon">04</span>
+                    <h3>Continuous Learning</h3>
+                    <p>
+                        Always exploring new technologies and better
+                        ways to build software.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="section dark-section">
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="section-label">EXPERIENCE</p>
+            <h2>Where I've <span>worked.</span></h2>
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="experience-card">
+
+                    <div class="experience-top">
+
+                        <div>
+                            <p class="experience-date">
+                                MAY 2025 — SEP 2025
+                            </p>
+
+                            <h3>Backend Developer Intern</h3>
+
+                            <h4>ITM University</h4>
+                        </div>
+
+                        <span class="experience-tag">
+                            Internship
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Worked on backend development and institutional
+                        management systems. Developed an IIC management
+                        module, dashboards and role-based access control.
+                    </p>
+
+                    <div class="experience-tech">
+                        <span>Java</span>
+                        <span>Backend</span>
+                        <span>RBAC</span>
+                        <span>Firebase</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="experience-card">
+
+                    <div class="experience-top">
+
+                        <div>
+                            <p class="experience-date">
+                                MAY 2026 — PRESENT
+                            </p>
+
+                            <h3>MIS Development Intern</h3>
+
+                            <h4>ITM University</h4>
+                        </div>
+
+                        <span class="experience-tag">
+                            Internship
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Working on institutional management systems using
+                        Django, React and Flutter. Contributing to backend
+                        APIs, frontend interfaces and mobile application
+                        development.
+                    </p>
+
+                    <div class="experience-tech">
+                        <span>Django</span>
+                        <span>React</span>
+                        <span>Vite</span>
+                        <span>Flutter</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section">
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="section-label">PROJECTS</p>
+            <h2>Things I've <span>built.</span></h2>
+        </div>
+
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+
+            <article class="project-card featured-project">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-type">
+                        FULL STACK / BACKEND
+                    </p>
+
+                    <h3>Job Portal System</h3>
+
+                    <p>
+                        A complete job portal system with user authentication,
+                        job listings, applications and database management.
+                        Built with a focus on backend architecture and
+                        relational database design.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>JSP</span>
+                        <span>Servlets</span>
+                        <span>JDBC</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/" target="_blank">
+                            GitHub ↗
+                        </a>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 2 -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-type">
+                        SPRING BOOT
+                    </p>
+
+                    <h3>Student Barter System</h3>
+
+                    <p>
+                        Backend platform that enables students to exchange
+                        items and services through a structured barter
+                        system with RESTful APIs.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Spring Boot</span>
+                        <span>Java</span>
+                        <span>REST API</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/" target="_blank">
+                            GitHub ↗
+                        </a>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 3 -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-type">
+                        PYTHON / DATA
+                    </p>
+
+                    <h3>Recipe Recommendation System</h3>
+
+                    <p>
+                        A recommendation-based application that suggests
+                        recipes based on available ingredients and user
+                        preferences.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Data Analysis</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/" target="_blank">
+                            GitHub ↗
+                        </a>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 4 -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    04
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-type">
+                        JAVA DESKTOP
+                    </p>
+
+                    <h3>Hospital Appointment System</h3>
+
+                    <p>
+                        Desktop-based hospital appointment management
+                        application for handling patients, doctors and
+                        appointment records.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Java Swing</span>
+                        <span>JDBC</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/" target="_blank">
+                            GitHub ↗
+                        </a>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="section dark-section">
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="section-label">TECH STACK</p>
+            <h2>Tools I <span>work with.</span></h2>
+        </div>
+
+
+        <div class="skills-container">
+
+            <div class="skill-group">
+
+                <h3>Languages</h3>
+
+                <div class="skill-list">
+                    <span>Java</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-group">
+
+                <h3>Backend</h3>
+
+                <div class="skill-list">
+                    <span>Spring Boot</span>
+                    <span>JDBC</span>
+                    <span>Django</span>
+                    <span>REST APIs</span>
+                    <span>MySQL</span>
+                    <span>Firebase</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-group">
+
+                <h3>Frontend</h3>
+
+                <div class="skill-list">
+                    <span>React</span>
+                    <span>Vite</span>
+                    <span>JavaScript</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-group">
+
+                <h3>Core</h3>
+
+                <div class="skill-list">
+                    <span>DSA</span>
+                    <span>DBMS</span>
+                    <span>OOP</span>
+                    <span>Operating Systems</span>
+                    <span>Computer Networks</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= ACHIEVEMENTS ================= -->
+
+<section id="achievements" class="section">
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="section-label">ACHIEVEMENTS</p>
+            <h2>Beyond the <span>classroom.</span></h2>
+        </div>
+
+
+        <div class="achievements-grid">
+
+            <div class="achievement-card">
+
+                <div class="achievement-icon">
+                    🏆
+                </div>
+
+                <div>
+                    <h3>1st Prize — Ideathon</h3>
+                    <p>
+                        TechRhythm 2025
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="achievement-card">
+
+                <div class="achievement-icon">
+                    🥈
+                </div>
+
+                <div>
+                    <h3>2nd Place — EKLAVYA</h3>
+                    <p>
+                        Technical Competition
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="achievement-card">
+
+                <div class="achievement-icon">
+                    💻
+                </div>
+
+                <div>
+                    <h3>Hackathon Participant</h3>
+                    <p>
+                        Odoo Hackathon &amp; Bhartiya Antariksh Hackathon
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="achievement-card">
+
+                <div class="achievement-icon">
+                    👨‍💻
+                </div>
+
+                <div>
+                    <h3>Technical Head</h3>
+                    <p>
+                        Code Craft Society
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+    <div class="container contact-container">
+
+        <div class="contact-content">
+
+            <p class="section-label">
+                GET IN TOUCH
+            </p>
+
+            <h2>
+                Let's build something
+                <span>great together.</span>
+            </h2>
+
+            <p>
+                I'm currently exploring software engineering opportunities,
+                internships and interesting projects. If you have an
+                opportunity or simply want to talk technology, feel free
+                to reach out.
+            </p>
+
+            <a href="mailto:your.email@example.com" class="contact-email">
+                your.email@example.com
+            </a>
+
+        </div>
+
+
+        <div class="contact-links">
+
+            <a href="https://linkedin.com/" target="_blank">
+                <span>LinkedIn</span>
+                <span>↗</span>
+            </a>
+
+            <a href="https://github.com/" target="_blank">
+                <span>GitHub</span>
+                <span>↗</span>
+            </a>
+
+            <a href="mailto:your.email@example.com">
+                <span>Email</span>
+                <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+    <div class="container footer-container">
+
+        <p>
+            © 2026 Suraj Tomar. Built with HTML &amp; CSS.
+        </p>
+
+        <p>
+            Designed &amp; developed by Suraj.
+        </p>
+
+    </div>
+</footer>
+
 
 </body>
 </html>
